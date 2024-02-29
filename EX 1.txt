@@ -1,0 +1,314 @@
+EX 1
+
+class Pessoa{
+  String? _nome;
+  int? _idade;
+  String? _endereco;
+  String? _profissao;
+  String? _cpf;
+  String? _rg;
+  
+  String get nome => _nome!;
+  
+  set nome (String value){
+    _nome = value;
+  }
+  int get idade => _idade!;
+    
+    set idade(int value){
+    _idade = value;
+  }
+   String get endereco => _endereco!;
+  
+  set endereco (String value){
+    _endereco = value;
+  }
+   String get profissao => _profissao!;
+  
+  set profissao (String value){
+    _profissao = value;
+  }
+  String get cpf => _cpf!;
+  
+  set cpf (String value){
+    _cpf = value;
+  }
+   String get rg => _rg!;
+  
+  set rg (String value){
+    _rg = value;
+  }
+}
+void main(){
+  Pessoa pessoa1 = new Pessoa();
+  Pessoa pessoa2 = new Pessoa();
+  
+  pessoa1.nome = "Tom Cruize";
+  pessoa1.idade = 60;
+  pessoa1.endereco = "Califórnia, EUA";
+  pessoa1.profissao = "Ator";
+  pessoa1.cpf = "338.112.288-31";
+  pessoa1.rg = "1457342848588";
+  
+  print("******** PESSOA 1 ********");
+  print("Nome: " + pessoa1.nome);
+  print("Idade: ${pessoa1.idade}");
+  print("Endereco: " + pessoa1.endereco);
+  print("Profissao: " + pessoa1.profissao);
+  print("Cpf: " + pessoa1.cpf);
+  print("Rg: " + pessoa1.rg);
+  
+  pessoa2.nome = "Messi";
+  pessoa2.idade = 35;
+  pessoa2.endereco = "Miami, EUA";
+  pessoa2.profissao = "Jogador de fut";
+  pessoa2.cpf = "163.354.576-89";
+  pessoa2.rg = "2458490459289";
+  
+  print("******** PESSOA 2 ********");
+  print("Nome: " + pessoa2.nome);
+  print("Idade: ${pessoa2.idade}");
+  print("Endereco: " + pessoa2.endereco);
+  print("Profissao: " + pessoa2.profissao);
+  print("Cpf: " + pessoa2.cpf);
+  print("Rg: " + pessoa2.rg);
+}
+------------------------------------------------------------------------------------------------------------------------------------
+EX 2
+
+class Carro{
+  String? _modelo;
+  String? _marca;
+  String? _motor;
+  String? _cor;
+  
+  String get modelo => _modelo!;
+  
+  set modelo (String value){
+    _modelo = value;
+  }
+  String get marca => _marca!;
+    
+    set marca(String value){
+    _marca = value;
+  }
+   String get motor => _motor!;
+  
+  set motor(String value){
+    _motor = value;
+  }
+   String get cor => _cor!;
+  
+  set cor(String value){
+    _cor = value;
+  }
+}
+void main(){
+  Carro carro1 = new Carro();
+  
+  carro1.modelo = "Elantra";
+  carro1.marca = "Hyundai";
+  carro1.motor = "2.0 178 cv flex";
+  carro1.cor = "Preto";
+  
+  print("******** CARRO 1 ********");
+  print("Modelo: " + carro1.modelo);
+  print("Marca: " + carro1.marca);
+  print("Motor: " + carro1.motor);
+  print("Cor: " + carro1.cor);
+}
+-------------------------------------------------------------------------------------------------------------------------------------
+EX 3
+
+class Aviao{
+  String? _companhia;
+  String? _marca;
+  String? _motor;
+  String? _cor;
+  
+  String get companhia => _companhia!;
+  
+  set companhia (String value){
+    _companhia = value;
+  }
+  String get marca => _marca!;
+    
+    set marca(String value){
+    _marca = value;
+  }
+   String get motor => _motor!;
+  
+  set motor(String value){
+    _motor = value;
+  }
+   String get cor => _cor!;
+  
+  set cor(String value){
+    _cor = value;
+  }
+}
+void main(){
+  Aviao aviao1 = new Aviao();
+  Aviao aviao2 = new Aviao();
+  Aviao aviao3 = new Aviao();
+  
+  aviao1.companhia = "Latam";
+  aviao1.marca = "Airbus A320-200";
+  aviao1.motor = "Turboélice";
+  aviao1.cor = "Branco e preto";
+  
+  print("******** AVIAO 1 ********");
+  print("Companhia: " + aviao1.companhia);
+  print("Marca: " + aviao1.marca);
+  print("Motor: " + aviao1.motor);
+  print("Cor: " + aviao1.cor);
+  
+  aviao2.companhia = "Gol";
+  aviao2.marca = "Boeing 737-8 MAX";
+  aviao2.motor = "turbofan CFM56-7";
+  aviao2.cor = "Branco e laranja";
+  
+  print("******** AVIAO 2 ********");
+  print("Companhia: " + aviao2.companhia);
+  print("Marca: " + aviao2.marca);
+  print("Motor: " + aviao2.motor);
+  print("Cor: " + aviao2.cor);
+  
+  aviao3.companhia = "Azul";
+  aviao3.marca = "Airbus A321neo";
+  aviao3.motor = "V2500";
+  aviao3.cor = "Branco e azul";
+  
+  print("******** AVIAO 3 ********");
+  print("Companhia: " + aviao3.companhia);
+  print("Marca: " + aviao3.marca);
+  print("Motor: " + aviao3.motor);
+  print("Cor: " + aviao3.cor);
+}
+------------------------------------------------------------------------------------------------------------------------------------------
+EX 4
+
+class Animal{
+  String? _raca;
+  String? _nome;
+  String? _peso;
+  String? _cor;
+  
+  String get raca => _raca!;
+  
+  set raca (String value){
+    _raca = value;
+  }
+  String get nome => _nome!;
+    
+    set nome(String value){
+    _nome = value;
+  }
+   String get peso => _peso!;
+  
+  set peso(String value){
+    _peso = value;
+  }
+   String get cor => _cor!;
+  
+  set cor(String value){
+    _cor = value;
+  }
+}
+void main(){
+  Animal vaca = new Animal();
+  Animal bezerro = new Animal();
+  Animal ovelha = new Animal();
+  Animal cao = new Animal();
+  Animal coelho = new Animal();
+  Animal galinha = new Animal();
+  Animal pinto = Animal();
+  
+  vaca.raca = "Girolando";
+  vaca.nome = "Gilda";
+  vaca.peso = "781kg";
+  vaca.cor = "Branco e preto";
+  
+  print("******** VACA ********");
+  print("raca: " + vaca.raca);
+  print("nome: " + vaca.nome);
+  print("peso: " + vaca.peso);
+  print("Cor: " + vaca.cor);
+  
+  bezerro.raca = "Sindi";
+  bezerro.nome = "Juleo";
+  bezerro.peso = "86kg";
+  bezerro.cor = "Branco e preto";
+  
+  print("******** BEZERRO ********");
+  print("raca: " + bezerro.raca);
+  print("nome: " + bezerro.nome);
+  print("peso: " + bezerro.peso);
+  print("Cor: " + bezerro.cor);
+  
+  ovelha.raca = "Suffolk";
+  ovelha.nome = "Tiko";
+  ovelha.peso = "125kg";
+  ovelha.cor = "Branco";
+  
+  print("******** OVELHA ********");
+  print("raca: " + ovelha.raca);
+  print("nome: " + ovelha.nome);
+  print("peso: " + ovelha.peso);
+  print("Cor: " + ovelha.cor);
+  
+  ovelha.raca = "Suffolk";
+  ovelha.nome = "Tiko";
+  ovelha.peso = "125kg";
+  ovelha.cor = "Branco";
+  
+  print("******** OVELHA ********");
+  print("raca: " + ovelha.raca);
+  print("nome: " + ovelha.nome);
+  print("peso: " + ovelha.peso);
+  print("Cor: " + ovelha.cor);
+  
+  cao.raca = "Husky siberiano";
+  cao.nome = "Fred";
+  cao.peso = "52kg";
+  cao.cor = "Cinza";
+  
+  print("******** CAO ********");
+  print("raca: " + cao.raca);
+  print("nome: " + cao.nome);
+  print("peso: " + cao.peso);
+  print("Cor: " + cao.cor);
+  
+  coelho.raca = "Toy";
+  coelho.nome = "Flash";
+  coelho.peso = "12kg";
+  coelho.cor = "Branco";
+  
+  print("******** COELHO ********");
+  print("raca: " + coelho.raca);
+  print("nome: " + coelho.nome);
+  print("peso: " + coelho.peso);
+  print("Cor: " + coelho.cor);
+  
+  galinha.raca = "Turken";
+  galinha.nome = "Turkedeira";
+  galinha.peso = "3kg";
+  galinha.cor = "laranja";
+  
+  print("******** GALINHA ********");
+  print("raca: " + galinha.raca);
+  print("nome: " + galinha.nome);
+  print("peso: " + galinha.peso);
+  print("Cor: " + galinha.cor);
+  
+  pinto.raca = "phoenix";
+  pinto.nome = "fenix";
+  pinto.peso = "150g";
+  pinto.cor = "amarelo";
+  
+  print("******** PINTO ********");
+  print("raca: " + pinto.raca);
+  print("nome: " + pinto.nome);
+  print("peso: " + pinto.peso);
+  print("Cor: " + pinto.cor);
+}
